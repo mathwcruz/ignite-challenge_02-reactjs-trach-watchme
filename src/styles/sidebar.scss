@@ -29,4 +29,16 @@ nav.sidebar {
 
     width: 100%;
   }
+
+  .btn {
+    transition: transform 0.3s;
+  }
+
+  .btn:hover {
+    transform: translateX(7px);
+  }
+
+  .btn:focus {
+    transform: translateX(10px);
+  }
 }
