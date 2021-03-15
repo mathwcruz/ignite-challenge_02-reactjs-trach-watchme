@@ -7,7 +7,7 @@ interface MovieCardProps {
   poster: string;
   rating: string;
   runtime: string;
-}
+};
 
 export function MovieCard(props: MovieCardProps) {
   return (
@@ -32,5 +32,5 @@ export function MovieCard(props: MovieCardProps) {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

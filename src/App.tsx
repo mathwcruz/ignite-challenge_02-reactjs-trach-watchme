@@ -17,17 +17,17 @@ interface GenreResponseProps {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
   title: string;
-}
+};
 
 interface MovieProps {
   Title: string;
   Poster: string;
-  Ratings: Array<{
+  Ratings: Array<{ // "Ratings" é um Array de objeto
     Source: string;
     Value: string;
   }>;
   Runtime: string;
-}
+};
 
 export function App() {
   const [selectedGenreId, setSelectedGenreId] = useState(1);
@@ -50,12 +50,12 @@ export function App() {
 
     api.get<GenreResponseProps>(`genres/${selectedGenreId}`).then(response => {
       setSelectedGenre(response.data);
-    })
+    });
   }, [selectedGenreId]);
 
   function handleClickButton(id: number) {
     setSelectedGenreId(id);
-  }
+  };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -90,5 +90,5 @@ export function App() {
         </main>
       </div>
     </div>
-  )
-}
+  );
+};
