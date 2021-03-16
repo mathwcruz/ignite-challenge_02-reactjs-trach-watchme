@@ -4,13 +4,13 @@
 
 <br>
 
-## **<h2 align="center">Aplicação Front end📟 👨‍💻</h2>**
+## **<h2 align="center">Front end application📟 👨‍💻</h2>**
 
-## <p><h2 align="center">Aplicação de listagem de filmes desenvolvida no segundo desafio da Trilha ReactJS do Ignite ministrado pela [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Movie listing application developed in Ignite's second ReactJS Track challenge delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
-<h3>Além do desafio proposto, nimações foram adicionadas, algumas pequenas mudanças no CSS foram feitas e dois novos componentes foram criados, para fim de melhor organização e manutenção de código</h3>
+<h3>In addition to the proposed challenge, nimations were added, some minor changes in CSS were made and two new components were created for the purpose of better code organization and maintenance</h3>
 
-# **Demonstração da aplicação** 💻
+# **Demonstration of the application** 💻
 
 <p align="center">
   <img src="./.github/demonstration.gif" width="1400px"/>
@@ -19,10 +19,10 @@
 <br>
 
 ## Features
-- Listagem de filmes conforme o gênero selecionado
-- Navegação de gêneros diferentes
+- Listing movies according to the selected genre
+- Navigation of different genres
 
-## 🚀 Tecnologias utilizadas:
+## 🚀 Technologies used:
 
 <p align="center">
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5"  width="70" height="70"/>
@@ -35,23 +35,23 @@
 
 <br>
 
-## 💻 Instalação da aplicação
+## 💻 Application installation
 - `git clone https://github.com/mathwcruz/ignite-desafio_02-trilha-reactjs.git` para clonar o repositório
 
 <br>
 
-# Rodar aplicação
-Para rodar a aplicação na web, siga as instruções a partir do seu terminal:
-- `cd ignite-desafio_02-trilha-reactjs` e `code .`
-- rode `yarn` para instalar as dependências do projeto
-- Após ter baixado as dependências, rode `yarn server` para iniciar o servidor com `JSON Server`, irá abrir no endereço `localhost:3333`
-- Após isso, rode `yarn dev` para rodar a aplicação, irá abrir no endereço `localhost:8080`
-- [Aplicação na web](https://ignite-whatch-me-matheus-da-cruz.netlify.app/) - lembre-se de estar com o servidor rodando para melhor usabilidade da aplicação
+# Run application
+To run the application on the web, follow the instructions from your terminal:
+- `cd ignite-desafio_02-trilha-reactjs` and `code .`
+- run `yarn` to install the dependencies of the project
+- After downloading the dependencies, run `yarn server` to start the server with `JSON Server`, will open at the address `localhost:3333`
+- After that, run `yarn dev` to run the application, will open at the address `localhost:8080`
+- [Web application](https://ignite-whatch-me-matheus-da-cruz.netlify.app/) - remember to be with the server running for better usability of the application
 
 <br>
 
-## **<p align="center">Muito obrigado ao pessoal da Rocketseat 🚀 pelo excelente conteúdo e didática, é nítido o impacto dessa empresa nos meus estudos 🙂</p>**
+## **<p align="center">Thank you very much to the people of Rocketseat 🚀 for the excellent content and didactics, it is clear the impact of this company in my studies 🙂</p>**
 
-## **<p align="center">Iniciando a caminhada para poder participar da maratona nesse mundo da programação 🏃‍</p>**
+## **<p align="center">Starting the walk to be able to participate in the marathon in this world of programming 🏃‍</p>**
 
-### <p> <h2 align="center"> Mais uma aplicação realizada por Matheus da Cruz 👨‍💻 </h2> </p>
+### <p> <h2 align="center">Another application by Matheus da Cruz 👨‍💻 </h2> </p>
