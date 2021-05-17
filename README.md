@@ -8,6 +8,8 @@
 
 ## <p><h2 align="center">Movie listing application developed in Ignite's second ReactJS Track challenge delivered by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
+## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
+
 <h3>In addition to the proposed challenge, nimations were added, some minor changes in CSS were made and two new components were created for the purpose of better code organization and maintenance</h3>
 
 <p align="center">
