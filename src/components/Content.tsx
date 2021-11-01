@@ -1,4 +1,5 @@
-import React from "react";
+import { memo } from "react";
+import loadash from "lodash";
 
 import { MovieCard } from "./MovieCard";
 
@@ -6,16 +7,16 @@ interface ContentProps {
   movies: Array<{
     Title: string;
     Poster: string;
-    Ratings: Array<{ // "Ratings" é um Array de objeto
+    Ratings: Array<{
+      // "Ratings" é um Array de objeto
       Source: string;
       Value: string;
     }>;
     Runtime: string;
   }>;
-};
+}
 
-export function Content({ movies } : ContentProps) {
-  // Complete aqui
+function ContentComponent({ movies }: ContentProps) {
   return (
     <main>
       <div className="movies-list">
@@ -30,4 +31,8 @@ export function Content({ movies } : ContentProps) {
       </div>
     </main>
   );
-};
+}
+
+export const Content = memo(ContentComponent, (prevProps, nextProps) =>
+  loadash.isEqual(prevProps.movies, nextProps.movies)
+);

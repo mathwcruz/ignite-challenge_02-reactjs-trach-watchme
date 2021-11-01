@@ -1,20 +1,25 @@
-import React from "react";
+import { memo } from "react";
+import loadash from "lodash";
 
 import { SideBarHeader } from "./SideBarHeader";
 import { Button } from "./Button";
 
 interface SideBarProps {
-  genres: Array<{ // "genres" é um Array de objeto
+  genres: Array<{
+    // "genres" é um Array de objeto
     id: number;
     title: string;
-    name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
+    name: "action" | "comedy" | "documentary" | "drama" | "horror" | "family";
   }>;
   selectedGenreId: number;
   handleClickButton(id: number): void; //estrutura de uma função - (caso retorno seja uma string, por exemplo, no lugar do void, setar o tipo String)
-};
+}
 
-export function SideBar({ genres, handleClickButton, selectedGenreId }: SideBarProps) {
-  // Complete aqui
+function SideBarComponent({
+  genres,
+  handleClickButton,
+  selectedGenreId,
+}: SideBarProps) {
   return (
     <nav className="sidebar">
       <SideBarHeader />
@@ -33,4 +38,8 @@ export function SideBar({ genres, handleClickButton, selectedGenreId }: SideBarP
       </div>
     </nav>
   );
-};
+}
+
+export const SideBar = memo(SideBarComponent, (prevProps, nextProps) =>
+  loadash.isEqual(prevProps.genres, nextProps.genres)
+);

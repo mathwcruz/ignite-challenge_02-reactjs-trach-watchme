@@ -1,21 +1,25 @@
-import { Star, Clock } from 'react-feather';
+import { memo } from "react";
+import loadash from "lodash";
+import { Star, Clock } from "react-feather";
 
-import '../styles/movie-card.scss';
+import "../styles/movie-card.scss";
 
 interface MovieCardProps {
   title: string;
   poster: string;
   rating: string;
   runtime: string;
-};
+}
 
-export function MovieCard({ title, poster, rating, runtime }: MovieCardProps) {
+function MovieCardComponent({
+  title,
+  poster,
+  rating,
+  runtime,
+}: MovieCardProps) {
   return (
     <div className="movie-card animate-appear">
-      <img
-        src={poster}
-        alt={title}
-      />
+      <img src={poster} alt={title} />
 
       <div>
         <div className="movie-info">
@@ -33,4 +37,8 @@ export function MovieCard({ title, poster, rating, runtime }: MovieCardProps) {
       </div>
     </div>
   );
-};
+}
+
+export const MovieCard = memo(MovieCardComponent, (prevProps, nextProps) =>
+  loadash.isEqual(prevProps, nextProps)
+);
