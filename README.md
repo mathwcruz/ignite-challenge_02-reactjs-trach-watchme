@@ -4,11 +4,11 @@
 
 <br>
 
-## **<h2 align="center">Front end application📟 👨‍💻</h2>**
+<h2 align="center">Front end application📟 👨‍💻</h2>
 
-## <p><h2 align="center">Movie listing application</h2> </p>
+<h2 align="center">Movie listing application</h2>
 
-## <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
+<p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
 
 <h3 align="center">In addition to the proposed challenge, nimations were added, some minor changes in CSS were made and two new components were created for the purpose of better code organization and maintenance</h3>
 
@@ -72,10 +72,8 @@ To run the application on the web, follow the instructions from your terminal:
  <br />
  <sub><b>Matheus da Cruz</b></sub></a> <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend" title="Rocketseat">  🚀</a>
 
-Desenvolvido por Matheus da Cruz 😊
-
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-cruz-frontend/)](https://www.linkedin.com/in/matheus-cruz-frontend/) 
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
 
-### <p> <h2 align="center">Another application by Matheus da Cruz 👨‍💻 </h2> </p>
+<h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2>
